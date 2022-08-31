@@ -1,93 +1,184 @@
 id: IABC700EA
+legacy_id: P010373
+ocr_import_info:
+  bdrc_scan_id: W1KG10294
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-22T16:37:08'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-22T16:42:05+00:00'
-last_modified: '2022-06-08T13:07:23.033203+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-31T02:32:09.735128+00:00'
+last_modified: 2022-08-31 10:43:36.009223
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1KG10294
-  title: རྒྱ་བོད་མཁས་གྲུབ་རིམ་བྱོན་གྱི་རྣམ་ཐར་ཕྱོགས་བསྒྲིགས།
-  author: ''
+  id: http://purl.bdrc.io/resource/W1KG10294
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    F8E9:
-      image_group_id: I1KG10644
-      title: ''
-      total_pages: 1066
-      order: 1
-      base_file: F8E9.txt
-    '6117':
-      image_group_id: I1KG10645
-      title: ''
-      total_pages: 430
-      order: 2
-      base_file: 6117.txt
-    AAEA:
-      image_group_id: I1KG10646
-      title: ''
-      total_pages: 906
-      order: 3
-      base_file: AAEA.txt
-    3A3C:
-      image_group_id: I1KG10647
-      title: ''
-      total_pages: 798
-      order: 4
-      base_file: 3A3C.txt
-    '3740':
-      image_group_id: I1KG10648
-      title: ''
-      total_pages: 1011
-      order: 5
-      base_file: 3740.txt
-    CA8F:
-      image_group_id: I1KG10649
-      title: ''
-      total_pages: 650
-      order: 6
-      base_file: CA8F.txt
-    '5313':
-      image_group_id: I1KG10650
-      title: ''
-      total_pages: 688
-      order: 7
-      base_file: 5313.txt
-    C8CB:
-      image_group_id: I1KG10651
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW1KG10294
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: རྒྱ་བོད་མཁས་གྲུབ་རིམ་བྱོན་གྱི་རྣམ་ཐར་ཕྱོགས་བསྒྲིགས།
+  author: མཁས་བཙུན་བཟང་པོ།
+statistics:
+  ocr_word_mean_confidence_index: 0.8374905827696998
+  ocr_word_median_confidence_index: 0.8999999761581421
+quality: null
+bases:
+  I1KG10651:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10651
       total_pages: 676
-      order: 8
-      base_file: C8CB.txt
-    '5061':
-      image_group_id: I1KG10652
-      title: ''
-      total_pages: 705
-      order: 9
-      base_file: 5061.txt
-    5AC0:
-      image_group_id: I1KG10653
-      title: ''
+      volume_number: 8
+      volume_pages_bdrc_intro: 2
+    order: 8
+    base_file: I1KG10651.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9399999976158142
+      ocr_word_mean_confidence_index: 0.8854710769465558
+    legacy_id: v008
+  I1KG10650:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10650
+      total_pages: 688
+      volume_number: 7
+      volume_pages_bdrc_intro: 2
+    order: 7
+    base_file: I1KG10650.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.949999988079071
+      ocr_word_mean_confidence_index: 0.9014300015879293
+    legacy_id: v007
+  I1KG10653:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10653
       total_pages: 600
-      order: 10
-      base_file: 5AC0.txt
-    35A6:
-      image_group_id: I1KG10654
-      title: ''
+      volume_number: 10
+      volume_pages_bdrc_intro: 2
+    order: 10
+    base_file: I1KG10653.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.949999988079071
+      ocr_word_mean_confidence_index: 0.8728347211787876
+    legacy_id: v010
+  I1KG10645:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10645
+      total_pages: 430
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I1KG10645.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8999999761581421
+      ocr_word_mean_confidence_index: 0.8442007894379369
+    legacy_id: v002
+  I1KG10654:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10654
       total_pages: 648
-      order: 11
-      base_file: 35A6.txt
-    C3AF:
-      image_group_id: I1KG10655
-      title: ''
+      volume_number: 11
+      volume_pages_bdrc_intro: 2
+    order: 11
+    base_file: I1KG10654.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.8840045953362152
+    legacy_id: v011
+  I1KG10646:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10646
+      total_pages: 906
+      volume_number: 3
+      volume_pages_bdrc_intro: 2
+    order: 3
+    base_file: I1KG10646.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.8184829665222968
+    legacy_id: v003
+  I1KG10652:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10652
+      total_pages: 705
+      volume_number: 9
+      volume_pages_bdrc_intro: 2
+    order: 9
+    base_file: I1KG10652.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8700000047683716
+      ocr_word_mean_confidence_index: 0.7985971801285117
+    legacy_id: v009
+  I1KG10647:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10647
+      total_pages: 798
+      volume_number: 4
+      volume_pages_bdrc_intro: 2
+    order: 4
+    base_file: I1KG10647.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8999999761581421
+      ocr_word_mean_confidence_index: 0.8342812693091053
+    legacy_id: v004
+  I1KG10648:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10648
+      total_pages: 1011
+      volume_number: 5
+      volume_pages_bdrc_intro: 2
+    order: 5
+    base_file: I1KG10648.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8999999761581421
+      ocr_word_mean_confidence_index: 0.8365219617835149
+    legacy_id: v005
+  I1KG10644:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10644
+      total_pages: 1066
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1KG10644.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8899999856948853
+      ocr_word_mean_confidence_index: 0.8242312772500073
+    legacy_id: v001
+  I1KG10649:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10649
+      total_pages: 650
+      volume_number: 6
+      volume_pages_bdrc_intro: 2
+    order: 6
+    base_file: I1KG10649.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9100000262260437
+      ocr_word_mean_confidence_index: 0.8507537864385933
+    legacy_id: v006
+  I1KG10655:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG10655
       total_pages: 470
-      order: 12
-      base_file: C3AF.txt
-statistics: {}
-quality: {}
+      volume_number: 12
+      volume_pages_bdrc_intro: 2
+    order: 12
+    base_file: I1KG10655.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8799999952316284
+      ocr_word_mean_confidence_index: 0.8247539134424097
+    legacy_id: v012
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
